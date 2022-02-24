@@ -14,7 +14,4 @@ for i in range(len_in):
   myobj.save("v"+str(i)+".mp3")
   i=i+1
 
-#os.system("start v1.mp3")
-#mixer.init()
-#mixer.music.load("first.mp3")
-#mixer.music.play()
+#os.system("start v1.mp3")    #keep this line if you want to hear your speech while running.
